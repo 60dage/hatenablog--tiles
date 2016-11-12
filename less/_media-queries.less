@@ -1,0 +1,34 @@
+/* Media Queries - Small Tablet & Smartphone */
+@media (max-width: 768px) {
+	#globalheader-container {
+		position: static;
+	}
+	.header-image-enable,.header-image-only {
+		#container {
+			padding: 0;
+		}
+		#blog-title {
+			margin: 0 auto 30px auto;
+		}
+		#title {
+			padding-top: 15%;
+		}
+	}
+	#container {
+		overflow: hidden;
+		padding: 0;
+	}
+	.hatena-module {
+		width: calc(~'50% - 10px');
+	}
+}
+
+/* Media Queries - Smartphone */
+@media (max-width: 480px) {
+	.entry, .archive-entry {
+		width: 100%;
+	}
+	.hatena-module {
+		width: 100%;
+	}
+}
