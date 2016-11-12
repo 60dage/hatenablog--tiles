@@ -1063,6 +1063,11 @@ body.page-preview #content-inner,
 body.page-about #content-inner {
   margin: 0;
 }
+body.page-entry #wrapper,
+body.page-preview #wrapper,
+body.page-about #wrapper {
+  width: 100%;
+}
 body.page-entry .breadcrumb,
 body.page-preview .breadcrumb,
 body.page-about .breadcrumb {
