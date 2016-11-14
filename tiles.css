@@ -855,7 +855,7 @@ a.entry-see-more:hover {
 .hatena-module {
   display: inline-block;
   width: calc(33.3% - 10px);
-  margin: 0 5px 10px;
+  margin: 5px;
   padding: 1.5em;
   box-sizing: border-box;
   background: #fff;
@@ -1074,7 +1074,7 @@ body.page-entry .entry,
 body.page-preview .entry,
 body.page-about .entry {
   width: 100%;
-  margin: 0 auto 15px;
+  margin: 5px auto 15px;
   padding: 0;
   border: none;
   letter-spacing: .04em;
