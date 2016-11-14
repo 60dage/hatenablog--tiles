@@ -389,7 +389,7 @@ html,
 body {
   font-family: "Hiragino Kaku Gothic ProN", /* OS X, iOS ヒラギノ */ Meiryo, /* Windows メイリオ */ -apple-system, /* iOS San Francisco */ BlinkMacSystemFont, /* iOS Chrome San Francisco */;
   color: #454545;
-  background-image: url('http://cdn-ak.f.st-hatena.com/images/fotolife/r/rokuzeudon/20161112/20161112142417.jpg');
+  background-image: url('https://cdn-ak.f.st-hatena.com/images/fotolife/r/rokuzeudon/20161112/20161112142417.jpg');
 }
 a {
   color: #1487bd;
@@ -1125,6 +1125,13 @@ body.page-about .entry-content {
   margin: 4em auto;
 }
 /* import media queries */
+/* Media Queries - Retina Display */
+@media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
+  .hatena-module-search-box .search-module-button {
+    background: transparent url(http://blog.hatena.ne.jp/images/theme/search@2x.png) no-repeat right center;
+    background-size: 20px 20px;
+  }
+}
 /* Media Queries - Small Tablet & Smartphone */
 @media (max-width: 768px) {
   #globalheader-container {
